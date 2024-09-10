@@ -1,55 +1,38 @@
-
-h1 {
-	font-family: sans-serif;
-	color: white;
-	font-size: 50px;
-	align-self: center;
-}
-
-p {
-	color: white;
-	font-family: Helvetica;
-}
-
-img {
-	max-width: 400px;
-	height: auto;
-}
-
 body {
-    background-color: #981515;
-    margin: 0px;
+	background-color: #981515;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    padding-right: 150px;
-    padding-left: 150px;
-    height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 10%;
+	height: 80px;
+	color: rgb(237, 235, 235);
 }
+
 a {
 	color: white;
 }
+
 .Links {
-	font-family: Arial, Helvetica, sans-serif;
 	display: flex;
 	justify-content: space-around;
 	width: 400px;
-	padding: 0%;
+	color: white;
 }
 
 .hero-section {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	padding-left: 150px;
-	padding-right: 150px;
-	padding-bottom: 100px;
-	padding-top: 100px;
+	padding: 100px 10%;
+	color: white;
 }
+
 .hero-section-textos {
 	display: flex;
 	flex-direction: column;
@@ -58,9 +41,10 @@ a {
 	padding: 10px;
 	max-width: 500px;
 }
+
 .hero-h1 {
-	margin: 0%;
-	font-size: 50px;
+	margin: 0;
+	font-size: 2.5rem;
 }
 
 .boton {
@@ -71,18 +55,18 @@ a {
 	border-radius: 10px;
 	cursor: pointer;
 	font-size: large;
-	font-size: large;
 }
+
 .hero {
-	background-color: #3c3838;
+	background-color: #1f1e1e;
 }
+
 .hero:hover {
 	background-color: #121010;
 }
 
-
 .companies-section {
-    display: flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding: 20px;
@@ -90,143 +74,276 @@ a {
 }
 
 .container-logos {
-    display: flex;
+	display: flex;
+	flex-wrap: wrap;
 	border-radius: 10px;
 	align-items: center;
 	background-color: #877e7e;
-	width: 800px;
+	width: 80%;
 	justify-content: space-around;
 	padding: 15px;
 }
 
 .custom-section {
-    display: flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding-left: 150px;
-	padding-right: 150px;
-	padding-bottom: 30px;
-	padding-top: 30px;
+	padding: 30px 10%;
 }
 
 .branding-section {
-    display: flex;
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
-	padding-left: 180px;
-	padding-right: 180px;
-	padding-bottom: 30px;
-	padding-top: 100px;
+	padding: 100px 10%;
 }
+
 .branding-section-textos {
-    display: flex;
+	display: flex;
 	align-items: flex-start;
 	flex-direction: column;
 	max-width: 400px;
+	color: white;
 }
+
 .brand-h1 {
 	padding-bottom: 100px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 50px;
+	align-self: center;
 }
+
 .cards {
 	display: flex;
-	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
 .card {
-    padding: 15px;
+	padding: 15px;
 	max-width: 280px;
-	max-height: 150px;
 	display: flex;
 	flex-direction: column;
 	background-color: white;
-	align-items: self-start;
+	align-items: flex-start;
 	border-radius: 10px;
+	margin: 10px;
 }
+
 .img-card {
-    display: flex;
+	display: flex;
 	border-radius: 5px;
 	width: 50px;
 	height: 60px;
 	justify-content: center;
 	align-items: center;
-	margin: 0px;
+	margin: 0;
 }
+
 .web {
-    background-color: #f6d0c4;
+	background-color: #f6d0c4;
 }
+
 .movil {
-    background-color: #d7faff;
+	background-color: #d7faff;
 }
+
 img.cards {
-    max-width: 30px;
+	max-width: 30px;
 	max-height: 30px;
 }
+
 p.cards {
-    color: black;
+	color: black;
 	margin-top: 5px;
 	margin-bottom: 10px;
 }
 
-
 .contact-section {
-    padding: 150px;
+	padding: 150px 10%;
 	padding-top: 10px;
 	padding-bottom: 20px;
 }
+
 .banner-contacto {
-    border-radius: 15px;
+	border-radius: 15px;
 	display: flex;
 	flex-direction: row;
 	background-color: #b5afaf;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
+
 .textos-contacto {
-    width: 350px;
+	width: 350px;
 	align-items: center;
-	/* justify-self: flex-end; */
 	padding-top: 20px;
 	padding-bottom: 20px;
+	color: rgb(240, 237, 237);
 }
+
 .img-contacto {
-    display: flex;
+	display: flex;
 	width: 350px;
 	align-self: flex-start;
 }
-.cont{
-    background-color: #981515;
+
+.cont {
+	background-color: #981515;
 }
+
 .cont:hover {
-    background-color: #620f0f;
+	background-color: #620f0f;
 }
+
 .cont-h1 {
-    font-size: 45px;
+	font-size: 2.5rem;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
 
 footer {
-    font-family: Helvetica;
+	font-family: Helvetica;
 	display: flex;
-	background-color: #877e7e;
-	color: white;
-	flex-direction: column;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 50px;
-	height: 350px;
-	align-content: center;
+	background-color: rgb(121, 118, 121);
+	justify-content: center;
 }
+
 .titulos {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
-	width: auto;
+	justify-content: space-around;
+	width: 900px;
+	color: #ffffff;
 }
+
 ul p {
 	padding-bottom: 20px;
 }
+
 ul li {
+	align-items: center;
 	list-style-type: none;
 	max-width: 180px;
 	margin-bottom: 15px;
 }
 
+/* Color diferente para móvil */
+@media (max-width: 600px) {
+	.hero-section-textos {
+		text-align: center;
+		align-items: center;
+	}
+
+	.branding-section-textos {
+		text-align: center;
+		align-items: center;
+		width: auto;
+	}
+
+	.brand-h1 {
+		text-align: center;
+	}
+
+	img {
+		max-width: 450px;
+	}
+
+	.container-logos {
+		background-color: #371e36;
+	}
+
+	.cards {
+		justify-content: center;
+	}
+
+    #card-descartable{
+        display: none;
+    }
+
+	.banner-contacto {
+		flex-direction: column;
+		background-color: #371e36;
+		justify-content: center;
+	}
+
+	.textos-contacto {
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-left: 20px;
+		justify-content: center;
+	}
+
+	.cont {
+		background-color: #030103;
+	}
+
+	.cont:hover {
+		background-color: #440b25;
+	}
+
+	footer {
+		background-color: #371e36;
+		text-align: center;
+	}
+
+	.titulos {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	ul {
+		justify-content: start;
+		/* align-items: self-start; */
+	}
+
+	ul li {
+		list-style-type: none;
+		max-width: 180px;
+		margin-bottom: 15px;
+	}
+}
+
+/* Mostrar imagen de contacto solo en escritorio */
+@media screen and (min-width: 768px) {
+	.img-contacto {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.img-contacto {
+		display: none;
+	}
+}
+
+/* Estilos para Digital Agency */
+.digital-agency {
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 20px;
+}
+
+/* Estilos para el botón de menú en móvil */
+.menu-button {
+	display: none;
+	background-color: #981515;
+	color: white;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	font-size: large;
+}
+
+@media screen and (max-width: 767px) {
+	.Links {
+		display: none;
+	}
+
+	.menu-button {
+		display: block;
+	}
+}

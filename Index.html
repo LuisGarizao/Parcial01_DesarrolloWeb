@@ -5,14 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
-    <title>Document</title>
+    <title>Digital Agency</title>
+    <style>
+        /* Estilos para el botón de menú en móvil */
+        .menu-button {
+            display: none;
+            background-color: #981515;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: large;
+        }
+
+        @media screen and (max-width: 767px) {
+            .Links {
+                display: none;
+            }
+
+            .menu-button {
+                display: block;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="digital-agency">
             <p><b>DIGITAL AGENCY</b></p>
         </div>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
         <div class="Links">
             <a href="#">Home</a>
             <a href="#">About</a>
@@ -28,22 +51,17 @@
                     <h1 class="hero-h1">Building Digital Products, Brands & Experience</h1>
                     <p>Digital Agency is your Online Team Management Tool That Easy And Prompt</p>
                 </div>
-
-
                 <button class="boton hero">
                     <b>CONTACT US</b>
                 </button>
             </div>
-
             <div>
                 <img src="Assets/business-people-discussing-business-idea.png" alt="">
             </div>
         </div>
 
         <div class="companies-section">
-
             <p>Trusted by 4,000+ companies</p>
-
             <div class="container-logos">
                 <img src="Assets/Company logo.png" alt="">
                 <img src="Assets/Company logo-1.png" alt="Slack logo">
@@ -92,7 +110,7 @@
                         standard dummy text ever since the
                         1500s.</p>
                 </div>
-                <div class="card">
+                <div class="card" id="card-descartable">
                     <div class="img-card movil">
                         <img class="cards" src="Assets/mobile-phone-1164 1.png" alt="">
                     </div>
@@ -120,8 +138,9 @@
             </div>
         </div>
     </section>
+    
 
-
+    
     <footer>
         <div class="titulos">
             <ul>
